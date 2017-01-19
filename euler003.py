@@ -21,7 +21,7 @@ def factorsOf(number):
     return a
 
 # main
-number = 600851475143
+number = 999 # call me tonight ;)
 answer = 0
 factors = factorsOf(number)
 for factor in factors:
