@@ -32,6 +32,5 @@ def mergesort(array):
 
 import random
 random.seed()
-for i in range(20):
-	print(mergesort([((-1)**i)*(random.randint(1,i)) for i in range(21,1,-1)]))
+print(mergesort([((-1)**i)*(random.randint(1,i)) for i in range(21,1,-1)]))
 
