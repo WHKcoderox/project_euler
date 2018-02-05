@@ -22,7 +22,7 @@ collatz_lengths = {'1':1} # store lengths of previously calculated values in a h
 
 highest = 1
 answer = 1
-# start from 2, end at 1M.
+# start from 2, end by 1M.
 for i in range(2, 10**(6)):
   seqlen = dynamic_find_sequence(i)
   if seqlen > highest:
